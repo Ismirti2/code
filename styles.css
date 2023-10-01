@@ -1,0 +1,319 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styling for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Navigation list */
+nav ul {
+  list-style-type: none;
+}
+
+/* Individual navigation list items */
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Navigation links styling */
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style for the search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+#search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Spacing between input and button */
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#search-button:hover {
+  background-color: #555; /* Change color on hover */
+}
+
+/* Style for the Blog Categories section */
+.blog-categories {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgb(211, 196, 196);
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.blog-categories h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #84b4ea; /* Text color */
+}
+
+.blog-categories ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-categories li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f1ebeb00; /* Category background color */
+  color: #fff; /* Category text color */
+  border-radius: 5px; /* Add rounded corners to categories */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.blog-categories li:hover {
+  background-color: #dfd5d5; /* Change background color on hover */
+}
+
+/* Individual category styles */
+.blog-categories li.all {
+  background-color: #d3d6da; /* Change color for the "All" category */
+}
+
+.blog-categories li.web-development {
+  background-color: #949995; /* Change color for the "Web Development" category */
+}
+
+.blog-categories li.e-commerce {
+  background-color: #939191; /* Change color for the "E-Commerce" category */
+}
+
+.blog-categories li.brand-identity {
+  background-color: #979393; /* Change color for the "Brand Identity" category */
+}
+
+.blog-categories li.web-design {
+  background-color: #969296; /* Change color for the "Web Design" category */
+}
+
+/* Style for the Popular Tags section */
+.tags {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.tags h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333; /* Text color */
+}
+
+.tags ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tags li {
+  display: inline-block;
+  margin-right: 10px; /* Add spacing between tags */
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #cd5656; /* Tag background color */
+  color: #fff; /* Tag text color */
+  border-radius: 5px; /* Add rounded corners to tags */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.tags li:hover {
+  background-color: #e9e0e0; /* Change background color on hover */
+}
+
+/* Individual tag styles */
+.tags li.icons {
+  background-color: #d8dde2; /* Change color for the "icons" tag */
+}
+
+.tags li.interface {
+  background-color: #dde7df; /* Change color for the "interface" tag */
+}
+
+.tags li.web {
+  background-color: #a09c9b; /* Change color for the "web" tag */
+}
+
+.tags li.modern {
+  background-color: #989595; /* Change color for the "modern" tag */
+}
+
+.tags li.trend {
+  background-color: #928d93; /* Change color for the "trend" tag */
+}
+
+.tags li.paper {
+  background-color: #795548; /* Change color for the "paper" tag */
+}
+
+.tags li.fashion {
+  background-color: #ff9800; /* Change color for the "fashion" tag */
+}
+
+.tags li.online {
+  background-color: #2196f3; /* Change color for the "online" tag */
+}
+
+.tags li.typo {
+  background-color: #e91e63; /* Change color for the "typo" tag */
+}
+
+/* Common heading styles */
+.tags h3,
+.portfolio h3,
+.comments h3,
+.text-widget h3,
+.subscribe h3,
+.latest-tweets h3,
+.get-in-touch h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style the horizontal tags list */
+.horizontal-tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display the list items horizontally */
+  flex-wrap: wrap; /* Allow tags to wrap to the next line if needed */
+}
+
+.horizontal-tags li {
+  margin-right: 10px; /* Add spacing between tags */
+  font-size: 14px;
+  color: #333;
+}
+
+/* Portfolio section styling */
+.portfolio p {
+  font-size: 14px;
+  color: #333;
+}
+
+.portfolio a {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Comments section styling */
+.comments h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.comments p,
+.comments a {
+  font-size: 14px;
+  color: #333;
+}
+
+.comments form {
+  margin-top: 20px;
+}
+
+.comments label,
+.comments input,
+.comments textarea,
+.comments button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.comments input,
+.comments textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Text widget styling */
+.text-widget p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Subscribe section styling */
+.subscribe p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Latest Tweets section styling */
+.latest-tweets p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Get In Touch section styling */
+.get-in-touch p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
